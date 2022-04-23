@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.PostFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/white"
+            android:paddingHorizontal="8dp">
+
+
+            <TextView
+                android:id="@+id/toolbarTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center_vertical"
+                android:text="Post Compliance"
+                android:textColor="@color/blue"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+        </androidx.appcompat.widget.Toolbar>
+
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="20dp"
+            android:orientation="horizontal"
+          >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cardview_edittext"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/from_date_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:text="12-12-2022"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/from_date_ImageView"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_baseline_calendar_today_24" />
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:text="To" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cardview_edittext"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/to_date_Text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:text="12-12-2022"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:id="@+id/to_date_ImageView"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentRight="true"
+                    android:src="@drawable/ic_baseline_calendar_today_24" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+  //overdue
+        <TextView
+            android:id="@+id/overDue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:textStyle="bold"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Overdue" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        //today
+        <TextView
+            android:id="@+id/today"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Today" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        //This Month
+        <TextView
+            android:id="@+id/this_month"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/blue"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            android:padding="5dp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="This Month" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+//Upcoming
+        <TextView
+            android:id="@+id/upcoming"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Upcoming" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+        // Completed
+
+        <TextView
+            android:id="@+id/completed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/blue"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Completed" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+    </LinearLayout>
+</FrameLayout>

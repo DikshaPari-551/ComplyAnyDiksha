@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="../../../../layout/custom_preview.xml" value="0.19270833333333334" />
+        <entry key="../../.gradle/caches/transforms-3/2a47b351796e5a7289ff379634657ab9/transformed/ccp-2.5.0/res/drawable/ccp_ic_arrow_drop_down.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/cardview_edittext.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_arrowdown.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_back_arrow.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_drop_down_24.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_baseline_arrow_forward_ios_24.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_baseline_delete_24.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_baseline_edit_24.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_baseline_local_post_office_24.xml" value="0.1465" />
+        <entry key="app/src/main/res/drawable/ic_block.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_edit.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_rectangle.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/ic_settings.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/rounded_button.xml" value="0.1505" />
+        <entry key="app/src/main/res/drawable/tab_color_selector.xml" value="0.1465" />
+        <entry key="app/src/main/res/layout/activity_booking_meeting.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_change_password.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_change_password2.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_chat.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_complaince_nature.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_complaince_type.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_completed.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_contact_us.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/activity_contact_us2.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_demo.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_diksha_login.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_document.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_email.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_entity.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_entity_type.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_faqactivity.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_forget_password.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_forget_password2.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_fragment.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_help_and_support.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_industry_type.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_login.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_login2.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_notification_fragment.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_overdue.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_profile.xml" value="0.18" />
+        <entry key="app/src/main/res/layout/activity_profile_management.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_register_email_notification.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_resource_management.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_splash_screen.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_stock_exchange.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_sub_law_fragment.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_support.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_suppport.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_terms_of_use.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_this_month_acctivity.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_today.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_upcoming.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/activity_user.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_business_partner.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_calender.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_change_user.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_client_group.xml" value="0.14947916666666666" />
+        <entry key="app/src/main/res/layout/fragment_client_management.xml" value="0.14947916666666666" />
+        <entry key="app/src/main/res/layout/fragment_country_company.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_country_region_company.xml" value="0.14947916666666666" />
+        <entry key="app/src/main/res/layout/fragment_dashboard.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_dashbord.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_department.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_entity.xml" value="0.14947916666666666" />
+        <entry key="app/src/main/res/layout/fragment_global_company.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_law.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_login_user.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_menu.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_notifications.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_post.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_proxy_user.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_regional_company.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_report.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_settings.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/fragment_sub_department.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_sub_law.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_sub_regional_company_fragement.xml" value="0.15" />
+        <entry key="app/src/main/res/layout/fragment_user.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_user2.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/fragment_users.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/frame1.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/notification_recycler_layout.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/overdue_recycler_layout.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/recycler_resource_layout.xml" value="0.16458333333333333" />
+        <entry key="app/src/main/res/layout/upcoming_recycler_layout.xml" value="0.33" />
+        <entry key="app/src/main/res/menu/bottom_menu.xml" value="0.16458333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

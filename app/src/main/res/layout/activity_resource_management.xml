@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.ResourceManagementActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?android:actionBarSize"
+                android:layout_alignParentTop="true"
+                android:background="@color/white"
+                android:paddingHorizontal="8dp">
+
+                <TextView
+                    android:id="@+id/toolbarBackIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="start"
+                    android:gravity="center_vertical"
+                    android:text="Back"
+                    android:textColor="@color/blue"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    app:drawableStartCompat="@drawable/ic_back_arrow"
+                    app:drawableTint="@color/blue" />
+
+                <TextView
+                    android:id="@+id/toolbarTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:text="Resource Management"
+                    android:textColor="@color/blue"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/toolbar"
+                android:background="@color/grey" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="15dp"
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:paddingBottom="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cardview_edittext"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/LawNature"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+                    android:hint="Select Nature Type"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="@drawable/cardview_edittext"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/LawType"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+                    android:hint="Select Law Type"
+                    android:textSize="15dp" />
+
+            </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/country_textview_resourceManagement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cardview_edittext"
+                android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+                android:gravity="center_vertical"
+                android:hint="Select Country"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textSize="15dp" />
+
+            <TextView
+                android:id="@+id/ResourceTextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textColor="#FF0808"
+                android:textSize="10dp" />
+
+            <TextView
+                android:id="@+id/state_textview_resourceManagement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/cardview_edittext"
+                android:drawableRight="@drawable/ic_baseline_arrow_drop_down_24"
+                android:gravity="center_vertical"
+                android:hint="Select State"
+                android:maxLines="1"
+                android:padding="10dp"
+                android:textSize="15dp" />
+
+
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/resource_management_recyclerview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="15dp"
+            app:cardCornerRadius="10dp" />
+    </LinearLayout>
+
+
+</ScrollView>

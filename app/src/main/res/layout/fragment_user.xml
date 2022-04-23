@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Fragment.UserFragment">
+
+    <EditText
+        android:id="@+id/etCompanyId"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:layout_marginHorizontal="10dp"
+        android:background="@drawable/cardview_edittext"
+        android:fontFamily="sans-serif"
+        android:hint="Enter Company ID"
+        android:inputType="text"
+        android:paddingHorizontal="5dp"
+        android:paddingStart="7dp"
+        android:textSize="15sp" />
+    <TextView
+        android:id="@+id/tvCompanyId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/red"
+        android:textSize="10sp"
+        android:layout_marginHorizontal="10dp"/>
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Enter Email ID/User ID"
+        android:paddingHorizontal="5dp"
+        android:paddingStart="7dp"
+        android:textSize="15sp"
+        android:layout_marginTop="5dp"
+        android:inputType="textEmailAddress"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/cardview_edittext"
+        android:layout_marginHorizontal="10dp"
+        tools:ignore="RtlSymmetry" />
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/red"
+        android:textSize="10sp"
+        android:layout_marginHorizontal="10dp"/>
+
+
+    <EditText
+        android:visibility="gone"
+        android:id="@+id/etPass"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/cardview_edittext"
+        android:fontFamily="sans-serif"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:paddingHorizontal="5dp"
+        android:paddingStart="7dp"
+        android:textSize="15sp"
+        tools:ignore="RtlSymmetry" />
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/tvPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/red"
+        android:textSize="10sp"
+        android:layout_marginHorizontal="10dp"/>
+
+
+    <RelativeLayout
+        android:id="@+id/rememberLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <CheckBox
+            android:id="@+id/cbRememberMe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:text="Remember Me"
+            android:buttonTint="@color/blue"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/txtForgotPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="14dp"
+            android:layout_marginEnd="14dp"
+            android:text="Forgot Password?"
+            android:textColor="@color/blue"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btnContinue"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="12dp"
+        android:text="Continue"
+        android:textSize="13sp"
+        android:visibility="visible"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginHorizontal="12dp"
+        android:text="LOGIN"
+        android:textSize="13sp"
+        android:textStyle="bold"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtTerms1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="By Signing in, you agree to our "
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/termsOfUse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="terms of use "
+            android:textColor="@color/blue"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/txtTerms3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingVertical="5dp"
+            android:text="policy "
+            android:textSize="14sp" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

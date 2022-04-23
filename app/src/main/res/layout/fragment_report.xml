@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ReportFragment"
+    android:orientation="vertical">
+
+
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:paddingHorizontal="8dp">
+
+
+        <TextView
+            android:id="@+id/toolbarTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:text="Reports"
+            android:textColor="@color/blue"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </androidx.appcompat.widget.Toolbar>
+
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/global"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="8dp"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="10dp"
+             android:textSize="16sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Global" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/Entity"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Entity" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/Department"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Department" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/globalDepartment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Global Entity Department" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/entityFunction"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Entity Function" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/rent"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Rent" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/insurance"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Insurance" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/agreement"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Agreement" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/bankGuarantee"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Bank Guarantee" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+        <TextView
+            android:id="@+id/complainceData"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginHorizontal="15dp"
+            android:textColor="@color/black"
+            android:paddingHorizontal="4dp"
+            android:paddingVertical="10dp"
+            android:textSize="16sp"
+            android:drawableRight="@drawable/ic_baseline_arrow_forward_ios_24"
+            android:text="Complaince Data" />
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_marginHorizontal="15dp"
+            android:layout_height="1dp"
+            android:background="@color/grey" />
+
+
+    </LinearLayout>
+</LinearLayout>
